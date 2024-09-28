@@ -1,4 +1,7 @@
 export function optimizeBookings(bookings: number[][]):number[][]{
+	if(bookings.length == 0){
+		return bookings;
+	}
 	bookings.sort((a,b)=>a[0] - b[0]);
 	const answer: number[][] = [];
 	let prev: number[] = bookings[0];
