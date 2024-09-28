@@ -1,0 +1,22 @@
+meta {
+  name: create
+  type: http
+  seq: 3
+}
+
+post {
+  url: http://localhost:8080/requests
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "id":"2",
+    "guestName":"John",
+    "roomNumber":2,
+    "requestDetails":"Water needed",
+    "priority":4,
+    "status":"received"
+  }
+}

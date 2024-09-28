@@ -1,0 +1,1 @@
+{"version":3,"file":"file-system.module.js","sourceRoot":"","sources":["../../src/file-system/file-system.module.ts"],"names":[],"mappings":";;;;;;;;;AAAA,2CAAwC;AACxC,+DAA0D;AAMnD,IAAM,gBAAgB,GAAtB,MAAM,gBAAgB;CAAG,CAAA;AAAnB,4CAAgB;2BAAhB,gBAAgB;IAJ5B,IAAA,eAAM,EAAC;QACN,SAAS,EAAC,CAAC,uCAAiB,CAAC;QAC7B,OAAO,EAAC,CAAC,uCAAiB,CAAC;KAC5B,CAAC;GACW,gBAAgB,CAAG"}

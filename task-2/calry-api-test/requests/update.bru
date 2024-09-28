@@ -1,0 +1,22 @@
+meta {
+  name: update
+  type: http
+  seq: 4
+}
+
+put {
+  url: http://localhost:8080/requests/2
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "id":"2",
+    "guestName":"Johnny",
+    "roomNumber":2,
+    "requestDetails":"Water needed",
+    "priority":4,
+    "status":"received"
+  }
+}
